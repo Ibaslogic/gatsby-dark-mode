@@ -8,6 +8,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.light-theme {
+  --primary-background-color: white;
+  --primary-text-color: black;
+
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.dark-theme {
+  --primary-background-color: black;
+  --primary-text-color: white;
+
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
 article,
 aside,
 details,
